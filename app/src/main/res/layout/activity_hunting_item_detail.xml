@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".activities.HuntingItemDetail">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/animal_info_card"
+            android:paddingBottom="16dp"
+            android:backgroundTint="@color/background_color"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            app:cardCornerRadius="16dp"
+            app:strokeWidth="2dp"
+            app:strokeColor="@color/adapter_selector_color"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/general_info_card">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <!-- Photo -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:id="@+id/animal_image_iv" />
+
+                <!-- Info o zvěři -->
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="16dp">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/animal_icon_card"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:backgroundTint="@color/color_primary"
+                        app:cardCornerRadius="8dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginEnd="32dp">
+
+                            <ImageView
+                                android:id="@+id/animal_icon_iv"
+                                android:layout_width="28dp"
+                                android:layout_height="28dp"
+                                app:layout_constraintBottom_toBottomOf="@+id/animal_label_tv"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/animal_label_tv"
+                                style="@style/TextAppearance.AppCompat.Title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="16dp"
+                                android:text="animal"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintStart_toEndOf="@+id/animal_icon_iv"
+                                app:layout_constraintTop_toTopOf="parent" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <TextView
+                        android:id="@+id/hunting_method_label_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:text="@string/hunting_method_label_colon"
+                        android:textColor="@color/secondary_text_color"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/animal_icon_card" />
+
+                    <TextView
+                        android:id="@+id/hunting_method_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="16dp"
+                        android:text="@string/dash"
+                        app:layout_constraintBottom_toBottomOf="@id/hunting_method_label_tv"
+                        app:layout_constraintEnd_toEndOf="parent" />
+
+                    <TextView
+                        android:id="@+id/age_label_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/age_label_colon"
+                        android:textColor="@color/secondary_text_color"
+                        app:layout_constraintStart_toStartOf="@+id/hunting_method_label_tv"
+                        app:layout_constraintTop_toBottomOf="@+id/hunting_method_label_tv" />
+
+                    <TextView
+                        android:id="@+id/age_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dash"
+                        app:layout_constraintEnd_toEndOf="@id/hunting_method_tv"
+                        app:layout_constraintTop_toTopOf="@+id/age_label_tv" />
+
+                    <TextView
+                        android:id="@+id/weight_label_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/weight_label_colon"
+                        android:textColor="@color/secondary_text_color"
+                        app:layout_constraintStart_toStartOf="@+id/age_label_tv"
+                        app:layout_constraintTop_toBottomOf="@+id/age_label_tv" />
+
+                    <TextView
+                        android:id="@+id/weight_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/dash"
+                        app:layout_constraintEnd_toEndOf="@id/age_tv"
+                        app:layout_constraintTop_toBottomOf="@id/age_tv" />
+
+                    <TextView
+                        android:id="@+id/score_label_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/score_evaluation_label_colon"
+                        android:textColor="@color/secondary_text_color"
+                        app:layout_constraintStart_toStartOf="@+id/weight_label_tv"
+                        app:layout_constraintTop_toBottomOf="@+id/weight_label_tv" />
+
+                    <TextView
+                        android:id="@+id/score_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/dash"
+                        app:layout_constraintEnd_toEndOf="@id/weight_tv"
+                        app:layout_constraintTop_toBottomOf="@id/weight_tv" />
+
+                    <TextView
+                        android:id="@+id/gender_label_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/gender_label_colon"
+                        android:textColor="@color/secondary_text_color"
+                        app:layout_constraintStart_toStartOf="@+id/score_label_tv"
+                        app:layout_constraintTop_toBottomOf="@+id/score_label_tv" />
+
+                    <TextView
+                        android:id="@+id/gender_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/dash"
+                        app:layout_constraintEnd_toEndOf="@id/score_tv"
+                        app:layout_constraintTop_toBottomOf="@id/score_tv" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <!-- Obecné info -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/general_info_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="@color/background_color"
+            app:cardCornerRadius="16dp"
+            app:strokeWidth="2dp"
+            app:strokeColor="@color/adapter_selector_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/animal_info_card">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/general_info_label_tv"
+                    style="@style/TextAppearance.AppCompat.Title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/general_info_card_title"
+                    android:textAlignment="center"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+                <TextView
+                    android:id="@+id/hunter_name_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:drawablePadding="8dp"
+                    android:text="@string/hunter_hint"
+                    android:visibility="gone"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/date_time_tv"
+                    app:drawableLeftCompat="@drawable/ic_hunter" />
+
+                <TextView
+                    android:id="@+id/date_time_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:drawablePadding="8dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/general_info_label_tv"
+                    app:drawableLeftCompat="@drawable/ic_calendar_today" />
+
+                <TextView
+                    android:id="@+id/dog_is_use_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="8dp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/dog_use_label"
+                    android:visibility="gone"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/hunter_name_tv"
+                    app:drawableLeftCompat="@drawable/ic_dog" />
+
+                <TextView
+                    android:id="@+id/night_vision_is_use_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="8dp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/night_vision_label"
+                    android:visibility="gone"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/dog_is_use_tv"
+                    app:drawableLeftCompat="@drawable/ic_night_vision_technology" />
+
+                <TextView
+                    android:id="@+id/accompaniment_at_the_hunt_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="8dp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/accompaniment_at_the_hunt_label"
+                    android:visibility="gone"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/night_vision_is_use_tv"
+                    app:drawableLeftCompat="@drawable/ic_accompaniment_at_the_hunt" />
+
+                <TextView
+                    android:id="@+id/note_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="8dp"
+                    android:layout_marginTop="5dp"
+                    android:visibility="gone"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/accompaniment_at_the_hunt_tv"
+                    app:drawableLeftCompat="@drawable/ic_note" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/location_card"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="@color/background_color"
+            app:cardCornerRadius="16dp"
+            app:strokeColor="@color/adapter_selector_color"
+            app:strokeWidth="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/general_info_card">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/location_title_tv"
+                    style="@style/TextAppearance.AppCompat.Title"
+                    android:text="@string/location_hint_text"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/location_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/location_title_tv"
+                    app:drawableTint="@color/text_color"
+                    app:drawableLeftCompat="@drawable/ic_gps" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

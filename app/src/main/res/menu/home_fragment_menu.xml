@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/db_item"
+        android:title="@string/export_db_menu_item_text"
+        android:icon="@drawable/ic_database"
+        app:showAsAction="ifRoom">
+
+        <menu>
+            <item
+                android:id="@+id/db_export_item"
+                android:title="@string/export_db_menu_item_text"
+                android:icon="@drawable/ic_export_database"
+                app:showAsAction="withText"/>
+
+            <item
+                android:id="@+id/db_import_item"
+                android:title="@string/import_db_menu_item_text"
+                android:icon="@drawable/ic_import_database"
+                app:showAsAction="withText"/>
+
+        </menu>
+
+
+    </item>
+
+    <item
+        android:id="@+id/edit_item"
+        android:title="@string/edit_text"
+        android:icon="@drawable/ic_edit"
+        app:showAsAction="ifRoom" />
+</menu>

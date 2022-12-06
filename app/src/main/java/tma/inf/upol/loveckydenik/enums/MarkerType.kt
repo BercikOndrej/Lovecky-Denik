@@ -1,0 +1,37 @@
+package tma.inf.upol.loveckydenik.enums
+
+import tma.inf.upol.loveckydenik.R
+
+enum class MarkerType(val icon: Int) {
+    POSED(R.drawable.ic_tree_stand_marker),
+    KRMNE_MISTO(R.drawable.ic_feeding_place_marker),
+    KRMELEC(R.drawable.ic_feeder_marker),
+    FOTOPAST(R.drawable.ic_videotrap_marker),
+    PAST(R.drawable.ic_trap_marker),
+    STOPY_ZVERE(R.drawable.ic_animal_tracks_marker),
+    NORA(R.drawable.ic_burrow_marker),
+    POZOROVANI(R.drawable.ic_observation_marker),
+    CUSTOM(R.drawable.ic_custom_marker),
+    JELENI_ZVER_MARKER(R.drawable.ic_deer_circle),
+    DANCI_ZVER_MARKER(R.drawable.ic_fallow_deer_circle),
+    SRNCI_ZVER_MARKER(R.drawable.ic_buck_circle),
+    CERNA_ZVER_MARKER(R.drawable.ic_wild_boar_circle),
+    MUFLONI_ZVER_MARKER(R.drawable.ic_moufflon_circle),
+    ZAJIC_MARKER(R.drawable.ic_hare_circle),
+    BAZANT_MARKER(R.drawable.ic_pheasant_circle),
+    LISKA_MARKER(R.drawable.ic_fox_circle),
+    JEZEVEC_MARKER(R.drawable.ic_badger_circle),
+    MYVAL_MARKER(R.drawable.ic_racoon_circle),
+    PSIK_MYVALOVITY_MARKER(R.drawable.ic_racoon_dog_circle),
+    KUNA_MARKER(R.drawable.ic_marten_circle),
+    VYDRA_MARKER(R.drawable.ic_otter_circle),
+    ONDATRA_MARKER(R.drawable.ic_musk_rat_circle),
+    NUTRIE_MARKER(R.drawable.ic_nutria_circle),
+    NOREK_MARKER(R.drawable.ic_mink_circle),
+    VODNI_PTACTVO_MARKER(R.drawable.ic_waterfowls_circle),
+    PTACTVO_MARKER(R.drawable.ic_birds_circle),
+    VLK_MARKER(R.drawable.ic_wolf_circle),
+    MEDVED_MARKER(R.drawable.ic_bear_circle),
+    TOULAVA_SKODNA_ZVER_MARKER(R.drawable.ic_other_harmful_animals_circle),
+    JINE_MARKER(R.drawable.ic_other_circle),
+}

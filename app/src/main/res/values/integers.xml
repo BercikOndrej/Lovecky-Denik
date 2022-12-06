@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="max_hunter_name_length">25</integer>
+    <integer name="max_note_length">100</integer>
+    <integer name="max_age_length">2</integer>
+    <integer name="max_score_length">3</integer>
+    <integer name="max_weight_length">3</integer>
+</resources>

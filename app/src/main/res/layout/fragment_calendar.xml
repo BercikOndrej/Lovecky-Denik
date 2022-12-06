@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="30dp"
+    android:layout_marginTop="32dp"
+    tools:context=".fragments.CalendarFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+            android:id="@+id/calendar_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            app:mcv_tileWidth="match_parent"
+            app:mcv_selectionMode="single"
+            app:mcv_dateTextAppearance="@style/calendar_date_text_appearance"
+            app:mcv_headerTextAppearance="@style/calendar_month_text_appearance"
+            app:mcv_weekDayTextAppearance="@style/calendar_weeks_day_text_appearance"
+            app:mcv_firstDayOfWeek="monday"
+            app:mcv_showOtherDates="all"
+            app:mcv_leftArrowMask="@color/text_color"
+            app:mcv_rightArrowMask="@color/text_color"
+            app:mcv_weekDayLabels="@array/days_of_week_shortcuts"
+            app:mcv_monthLabels="@array/months_of_year"/>
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/event_rv" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/add_event_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/floating_add_event_button_description"
+            android:src="@drawable/ic_add"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_gravity="end"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

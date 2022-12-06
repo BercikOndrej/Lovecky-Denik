@@ -1,0 +1,34 @@
+<resources>
+
+    <style name="Widget.Theme.AppCompat.StartingSplashScreen.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/color_primary</item>
+    </style>
+
+    <style name="Widget.Theme.AppCompat.StartingSplashScreen.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/color_primary</item>
+    </style>
+
+    <!--    Styl pro čísla v kalendáři-->
+    <style name="calendar_date_text_appearance">
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <!--    Styl pro měsic a rok v kalendáři-->
+    <style name="calendar_month_text_appearance">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Styl pro dny v týdnu použitých v kalendáři-->
+    <style name="calendar_weeks_day_text_appearance">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/adapter_selector_color</item>
+    </style>
+
+    <!-- Styl pro action bar v night modu -->
+    <style name="my_own_action_bar_style" parent="Widget.MaterialComponents.ActionBar.Primary">
+        <item name="background">@color/dark_green</item>
+    </style>
+
+</resources>

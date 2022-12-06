@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Základní barvy -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#999999</color>
+    <color name="red">#FF0000</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="orange">#F5891D</color>
+    <color name="calendar_current_day_background">#FFFFFF</color>
+    <color name="splash_screen_background">#2A4632</color>
+    <color name="splash_screen_foreground">#FFFFFF</color>
+    <color name="dark_green">#2A4632</color>
+
+    <!-- Témata -->
+    <!-- Primární barva -->
+    <color name="color_primary">#FFFFFF</color>
+    <color name="color_primary_dark">#FFFFFF</color>
+    <color name="color_on_primary">#2A4632</color>
+
+    <!-- Sekundární barva -->
+    <color name="color_secondary">#FFFFFF</color>
+    <color name="color_secondary_dark">#FFFFFF</color>
+    <color name="color_on_secondary">#2A4632</color>
+
+    <!-- Barva textu a pozadí-->
+    <color name="background_color">#333333</color>
+    <color name="text_color">#FFFFFF</color>
+
+    <!-- Barva pozadí navigačního menu -->
+    <color name="bottom_navigation_background_color">#2A4632</color>
+
+    <!-- Barva pro sekundární text -->
+    <color name="secondary_text_color">#D3D3D3</color>
+
+    <!-- Barva pro výběr zvěře a lovecké metody -->
+    <color name="adapter_selector_color">#3C6849</color>
+
+</resources>

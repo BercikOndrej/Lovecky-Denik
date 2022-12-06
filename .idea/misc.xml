@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../../layout/custom_preview.xml" value="0.24635416666666668" />
+        <entry key="..\:/Users/Ondrej/Desktop/Android/BP/LoveckyDenik/app/src/main/res/drawable/ic_msi_logo_stit.xml" value="0.44114583333333335" />
+        <entry key="..\:/Users/Ondrej/Desktop/Android/BP/LoveckyDenik/app/src/main/res/drawable/splash_image.xml" value="0.44114583333333335" />
+        <entry key="..\:/Users/Ondrej/Desktop/Android/BP/LoveckyDenik/app/src/main/res/layout/activity_main.xml" value="0.12903225806451613" />
+        <entry key="..\:/Users/Ondrej/Desktop/Android/BP/LoveckyDenik/app/src/main/res/layout/fragment_calendar.xml" value="0.31567028985507245" />
+        <entry key="..\:/Users/Ondrej/Desktop/Android/BP/LoveckyDenik/app/src/main/res/layout/fragment_home.xml" value="0.14332247557003258" />
+        <entry key="..\:/Users/Ondrej/Desktop/Android/BP/LoveckyDenik/app/src/main/res/layout/fragment_list.xml" value="0.31567028985507245" />
+        <entry key="..\:/Users/Ondrej/Desktop/Android/BP/LoveckyDenik/app/src/main/res/layout/fragment_map.xml" value="0.31567028985507245" />
+        <entry key="..\:/Users/Ondrej/Desktop/Android/BP/LoveckyDenik/app/src/main/res/layout/fragment_splash.xml" value="0.31567028985507245" />
+        <entry key="..\:/Users/Ondrej/Desktop/Android/BP/LoveckyDenik/app/src/main/res/menu/bottom_menu.xml" value="0.2009132420091324" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3005" />
+        <entry key="app/src/main/res/drawable/add_harvest_selection_btn.xml" value="0.261" />
+        <entry key="app/src/main/res/drawable/add_marker_btn.xml" value="0.297" />
+        <entry key="app/src/main/res/drawable/add_polygon_btn.xml" value="0.297" />
+        <entry key="app/src/main/res/drawable/bottom_dialog_shape.xml" value="0.297" />
+        <entry key="app/src/main/res/drawable/current_day_backgroud_drawable.xml" value="0.3145" />
+        <entry key="app/src/main/res/drawable/current_day_background_drawable.xml" value="0.3145" />
+        <entry key="app/src/main/res/drawable/day_selector.xml" value="0.3145" />
+        <entry key="app/src/main/res/drawable/ic__close.xml" value="0.297" />
+        <entry key="app/src/main/res/drawable/ic_add_marker_active.xml" value="0.297" />
+        <entry key="app/src/main/res/drawable/ic_add_polygon_active.xml" value="0.297" />
+        <entry key="app/src/main/res/drawable/ic_aim.xml" value="0.297" />
+        <entry key="app/src/main/res/drawable/ic_all_game.xml" value="0.261" />
+        <entry key="app/src/main/res/drawable/ic_animal_tracks_marker.xml" value="0.261" />
+        <entry key="app/src/main/res/drawable/ic_badger.xml" value="0.4197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_birds.xml" value="0.4197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_black_bear.xml" value="0.4197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_buck.xml" value="0.4197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_close.xml" value="0.297" />
+        <entry key="app/src/main/res/drawable/ic_database.xml" value="0.319" />
+        <entry key="app/src/main/res/drawable/ic_deer.xml" value="0.2205" />
+        <entry key="app/src/main/res/drawable/ic_deer_circle.xml" value="0.3005" />
+        <entry key="app/src/main/res/drawable/ic_deer_logo.xml" value="0.3260416666666667" />
+        <entry key="app/src/main/res/drawable/ic_delete.xml" value="0.3195" />
+        <entry key="app/src/main/res/drawable/ic_edit.xml" value="0.3195" />
+        <entry key="app/src/main/res/drawable/ic_error.xml" value="0.4197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_export_database.xml" value="0.319" />
+        <entry key="app/src/main/res/drawable/ic_fallow_deer.xml" value="0.1697672526041667" />
+        <entry key="app/src/main/res/drawable/ic_filter.xml" value="0.3195" />
+        <entry key="app/src/main/res/drawable/ic_fox.xml" value="0.4197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_google.xml" value="0.297" />
+        <entry key="app/src/main/res/drawable/ic_group_hunt.xml" value="0.4197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_hare.xml" value="0.4197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_holing_hunt.xml" value="0.4197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_home.xml" value="0.3260416666666667" />
+        <entry key="app/src/main/res/drawable/ic_hunter.xml" value="0.3195" />
+        <entry key="app/src/main/res/drawable/ic_import_database.xml" value="0.319" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.3260416666666667" />
+        <entry key="app/src/main/res/drawable/ic_launcher_deer_foreground.xml" value="0.3260416666666667" />
+        <entry key="app/src/main/res/drawable/ic_launcher_white_deer_foreground.xml" value="0.3195" />
+        <entry key="app/src/main/res/drawable/ic_launcher_white_wolf_foreground.xml" value="0.2855" />
+        <entry key="app/src/main/res/drawable/ic_list.xml" value="0.4197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_map.xml" value="0.21" />
+        <entry key="app/src/main/res/drawable/ic_marten.xml" value="0.4197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_mink.xml" value="0.4197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_moufflon.xml" value="0.4197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_musk_rat.xml" value="0.4197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_navigation_arrow.xml" value="0.297" />
+        <entry key="app/src/main/res/drawable/ic_note.xml" value="0.4197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_nutria.xml" value="0.4197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_other.xml" value="0.4197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_other_harmful_animals.xml" value="0.4197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_phaesant.xml" value="0.4197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_pin_drop.xml" value="0.3005" />
+        <entry key="app/src/main/res/drawable/ic_racoon.xml" value="0.4197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_racoon_dog.xml" value="0.4197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_select_image.xml" value="0.4197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_user_profil_image.xml" value="0.21" />
+        <entry key="app/src/main/res/drawable/ic_waiting_hunt.xml" value="0.3195" />
+        <entry key="app/src/main/res/drawable/ic_walking_hunt.xml" value="0.3195" />
+        <entry key="app/src/main/res/drawable/ic_waterflown.xml" value="0.4197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_waterflown_circle.xml" value="0.344" />
+        <entry key="app/src/main/res/drawable/ic_white_deer_logo.xml" value="0.3195" />
+        <entry key="app/src/main/res/drawable/ic_wild_boar.xml" value="0.4197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_wolf.xml" value="0.4197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_wolf_circle.xml" value="0.2855" />
+        <entry key="app/src/main/res/drawable/ic_wolf_logo.xml" value="0.2855" />
+        <entry key="app/src/main/res/drawable/rounded_background.xml" value="0.2855" />
+        <entry key="app/src/main/res/drawable/rounded_bakcground.xml" value="0.3145" />
+        <entry key="app/src/main/res/drawable/selected_day_background_drawable.xml" value="0.3145" />
+        <entry key="app/src/main/res/drawable/splash_image.xml" value="0.3260416666666667" />
+        <entry key="app/src/main/res/layout/activity_add_event.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_add_hunting_item.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/activity_add_item.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_full_screen_image.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_fullscreen_image.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_hunting_item_detail.xml" value="0.419586181640625" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3845108695652174" />
+        <entry key="app/src/main/res/layout/add_item_dialog.xml" value="0.3845108695652174" />
+        <entry key="app/src/main/res/layout/coming_events_one_row_layout.xml" value="0.40260416666666665" />
+        <entry key="app/src/main/res/layout/fragment_calendar.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/fragment_list.xml" value="0.45" />
+        <entry key="app/src/main/res/layout/fragment_map.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/gender_dropdown_item.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/huntung_item_detail.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/item_in_animal_list.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/item_in_animals_list.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/item_in_filter_dialog.xml" value="0.3974358974358974" />
+        <entry key="app/src/main/res/layout/item_in_method_list.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/marker_dialog_layout.xml" value="0.40260416666666665" />
+        <entry key="app/src/main/res/layout/marker_dialog_one_row_layout.xml" value="0.40260416666666665" />
+        <entry key="app/src/main/res/layout/one_row_event.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/one_row_in_recycler_list.xml" value="0.3845108695652174" />
+        <entry key="app/src/main/res/layout/rounded_background.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/row_in_list.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/row_in_recycler_list.xml" value="0.17798913043478262" />
+        <entry key="app/src/main/res/layout/user_edit_dialog_layout.xml" value="0.30885416666666665" />
+        <entry key="app/src/main/res/menu/activity_hunting_item_detail_menu.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/menu/bottom_menu.xml" value="0.25104166666666666" />
+        <entry key="app/src/main/res/menu/calendar_fragment_menu.xml" value="0.3890625" />
+        <entry key="app/src/main/res/menu/home_fragment_menu.xml" value="0.30885416666666665" />
+        <entry key="app/src/main/res/menu/list_fragment_menu.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3005" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_deer_round.xml" value="0.3260416666666667" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_white_deer.xml" value="0.3005" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_white_deer_round.xml" value="0.3005" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_white_wolf.xml" value="0.2855" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.375" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

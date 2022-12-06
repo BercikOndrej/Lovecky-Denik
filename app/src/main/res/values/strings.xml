@@ -1,0 +1,221 @@
+<resources>
+    <string name="app_name">Lovecký Deník</string>
+    <string name="home_fragment_label">Přehled</string>
+    <string name="map_fragment_label">Mapa</string>
+    <string name="list_fragment_label">Kronika</string>
+    <string name="calendar_fragment_label">Kalendář</string>
+    <string name="floating_add_button_description">Přidat položku</string>
+    <string name="floating_add_event_button_description">Přidat událost</string>
+    <string name="all_items_text">Veškerý lov</string>
+    <string name="insert_menu_icon_text">Přidat</string>
+    <string name="drop_photo_text">Zrušit</string>
+    <string name="title_add_activity">Položka</string>
+    <string name="note_hint">Poznámka</string>
+    <string name="night_vision_label">Technika nočního vidění</string>
+    <string name="dog_use_label">Asistence loveckého psa</string>
+    <string name="accompaniment_at_the_hunt_label">Doprovod u lovu</string>
+    <string name="animal_card_title">Zvěř</string>
+    <string name="method_card_title">Způsob lovu</string>
+    <string name="hunter_hint">Lovec</string>
+    <string name="animal_age_hint">Věk</string>
+    <string name="animal_score_hint">Bodování</string>
+    <string name="animal_weight_hint">Hmotnost</string>
+    <string name="animal_gender_hint">Pohlaví</string>
+    <string name="sulfix_for_weigth">kg</string>
+    <string name="cancel_text">Zrušit</string>
+    <string name="save_text">Uložit</string>
+    <string name="edit_text">Editovat</string>
+    <string name="delete_text">Smazat</string>
+    <string name="error_dialog_title">Error</string>
+    <string name="item_saved">Přidání položky bylo úspěšné</string>
+    <string name="item_not_saved">Přidání položky bylo neúspěšné </string>
+    <string name="item_edited">Editace položky byla úspěšná</string>
+    <string name="required_hunting_method_missing">Info o způsobu lovu nebylo vybráno.</string>
+    <string name="required_animal_missing">Info o ulovené zvěři nebylo vybráno.</string>
+    <string name="wrong_input_error_msg">Nesprávný vstup</string>>
+    <string name="ok_text">OK</string>
+    <string name="select_image_from_galery_text">Vybrat foto</string>
+    <string name="take_photo_text">Pořídit foto</string>
+    <string name="general_info_card_title">Obecné informace</string>
+    <string name="dash">-</string>
+    <string name="age_label_colon">Věk:</string>
+    <string name="weight_label_colon">Hmotnost:</string>
+    <string name="score_evaluation_label_colon">Bodování:</string>
+    <string name="gender_label_colon">Pohlaví:</string>
+    <string name="hunting_method_label_colon">Způsob lovu:</string>
+    <string name="delete_item_message_dialog">Opravdu chcete smazat položku?</string>
+    <string name="delete_was_successfully_text">Smazání položky bylo úspěšné</string>
+    <string name="yes_message_button_dialog">Ano</string>
+    <string name="no_message_button_dialog">Ne</string>
+    <string name="filter_text">Filter</string>
+    <string name="items_count_5_and_more_text">položek</string>
+    <string name="one_item_count_text">položka</string>
+    <string name="item_count_between_2_and_4_text">položky</string>
+    <string name="event_name_hint">Název</string>
+    <string name="event_time_all_day_info">Celodenní</string>
+    <string name="default_event_name">Moje událost</string>
+    <string name="successful_add_event">Přidání události bylo úspěšné</string>
+    <string name="successful_edit_event">Editace události byla úspěšná</string>
+    <string name="successful_delete_event">Smazání události bylo úspěšné</string>
+    <string name="all_day_text">Celodenní</string>
+    <string name="google_button_title">Tlačítko pro synchronizaci s Google kalendářem</string>
+    <string name="google_calendar_synchronization_title_text">
+        Synchronizace s Google kalendářem
+    </string>
+    <string name="google_calendar_synchronization_message_text">
+        Pro synchronizaci s google kalendářem prosím udělte povolení přístupu. Vaše mobilní
+        zařízení musí být v systému přihlášeno k vašemu účtu Google, jinak synchronizace není
+        možná. Provypnutí synchronizace odeberte udělená oprávnění této aplikace v systémovém
+        nastavení vašeho zařízení.
+    </string>
+    <string name="permissions_granted_text">Povolení udělena</string>
+    <string name="permission_allow_text">Udělit</string>
+    <string name="calendar_permissions_needed_text">
+        Pro Synchronizaci s Google kalendářem prosím udělte požadovaná povolení
+    </string>
+    <string name="permissions_required_title_text">Potřeba udělit oprávnění</string>
+    <string name="permissions_required_message_text">
+        Synchronizace s Google kalendářem není možná bez udělení patřičných oprávnění.
+        Prosím udělte oprávnění v systémovém nastavení aplikace.
+    </string>
+    <string name="map_permissions_needed_text">
+        Pro správné zobrazení mapy je nutné udělit patřičná oprávnění. Prosím udělte
+        patříčná oprávnění.
+    </string>
+    <string name="map_fragment_info_text">Fragment pro mapu</string>
+    <string name="map_pin_drop_text">Stiskni tlačítko pro přidání bodu</string>
+    <string name="default_location_text">Pozice neznámá</string>
+    <string name="map_marker_done_button_text">Hotovo</string>
+    <string name="add_marker_title">Přidání značky</string>
+    <string name="select_marker_type_text">Vyberte typ značky</string>
+    <string name="choose_marker_btn">Vybrat</string>
+    <string name="more_detail_button_text">Více</string>
+    <string name="hunter_name">Jméno </string>
+    <string name="hunter_email">Email</string>
+    <string name="user_info_title">Uživatelské informace</string>
+    <string name="user_email_hint">Email</string>
+    <string name="today_day_text">Dnes</string>
+    <string name="tomorrow_day_text">Zítra</string>
+    <string name="no_coming_events_text">Žádné nadcházející události</string>
+    <string name="select_location_text">Vybrat polohu</string>
+    <string name="location_hint_text">Poloha</string>
+    <string name="error_location_text">Chybné zadání lokace.</string>
+    <string name="location_label_colon">Poloha:</string>
+    <string name="read_and_write_permissions_needed_text">
+        Prosím udělte povolení zapisovat a číst soubory ve vašem zařízení.
+    </string>
+    <string name="export_db_menu_item_text">Export databáze</string>
+    <string name="export_db_info_text">
+        Přejete si exportovat databázi do souborů typu csv? Všechna data se exportují do složky
+        aplikace, která je ve většině případech nedostupná pro průzkumníka souborů vašeho mobilního
+        zařízení, proto je viditelná pouze po připojení zařízení k počítači.
+        Data hledejte ve složce "Android/data/nazevBalíčkuAplikace/files/ExportedDatabase".
+    </string>
+    <string name="no_text">Ne</string>
+    <string name="export_possitive_text">Export byl úspěšný</string>
+    <string name="export_negative_text">Export byl neúspěšný</string>
+    <string name="import_db_menu_item_text">Import databáze</string>
+    <string name="import_db_info_text">
+        Přejete si importovat data? Data i složky musí být správně pojmenovány a vloženy na správné
+        místo v úložišti. Složka "ExportedDatabase" obsahující složky "CsvFiles" a
+        "ExportedPictures", musí být společně s daty umístěny do složky
+        "Android/data/nazevBalíčkuAplikace/files", jinak import dat neproběhne. Všechna aktuální
+        data budou ztracena.
+    </string>
+    <string name="import_possitive_text">Import byl úspěšný. Změny se provedou po resetování aplikace.</string>
+    <string name="import_negative_text">Import byl neúspěšný</string>
+
+    <string-array name="animals_strings">
+        <item>Jelení zvěř</item>
+        <item>Dančí zvěř</item>
+        <item>Srnčí zvěř</item>
+        <item>Černá zvěř</item>
+        <item>Mufloní zvěř</item>
+        <item>Zajíc</item>
+        <item>Bažant</item>
+        <item>Liška</item>
+        <item>Jezevec</item>
+        <item>Mýval</item>
+        <item>Psík mývalovitý</item>
+        <item>Kuna</item>
+        <item>Vydra</item>
+        <item>Ondatra</item>
+        <item>Nutrie</item>
+        <item>Norek</item>
+        <item>Vodní ptactvo</item>
+        <item>Ptactvo</item>
+        <item>Vlk</item>
+        <item>Medvěd</item>
+        <item>Toulavá škodná zvěř</item>
+        <item>Jiné</item>
+    </string-array>
+
+    <string-array name="hunting_methods_strings">
+        <item>Čekaná</item>
+        <item>Šoulačka</item>
+        <item>Společný lov</item>
+        <item>Norování</item>
+        <item>Jiné</item>
+    </string-array>
+
+    <string-array name="days_of_week_shortcuts">
+        <item>Po</item>
+        <item>Út</item>
+        <item>St</item>
+        <item>Čt</item>
+        <item>Pá</item>
+        <item>So</item>
+        <item><font color="red">Ne</font> </item>
+    </string-array>
+
+    <string-array name="marker_types">
+        <item>Posed</item>
+        <item>Krmné místo</item>
+        <item>Krmelec</item>
+        <item>Fotopast</item>
+        <item>Past</item>
+        <item>Stopy zvěře</item>
+        <item>Nora</item>
+        <item>Pozorování</item>
+        <item>Jiné</item>
+    </string-array>
+
+    <string-array name="months_of_year">
+        <item>Leden</item>
+        <item>Únor</item>
+        <item>Březen</item>
+        <item>Duben</item>
+        <item>Květen</item>
+        <item>Červen</item>
+        <item>Červenec</item>
+        <item>Srpen</item>
+        <item>Září</item>
+        <item>Říjen</item>
+        <item>Listopad</item>
+        <item>Prosinec</item>
+    </string-array>
+
+    <string-array name="months_shortcuts">
+        <item>Led</item>
+        <item>Úno</item>
+        <item>Bře</item>
+        <item>Dub</item>
+        <item>Kvě</item>
+        <item>Čvn</item>
+        <item>Čvc</item>
+        <item>Srp</item>
+        <item>Zář</item>
+        <item>Říj</item>
+        <item>Lis</item>
+        <item>Pro</item>
+    </string-array>
+
+    <!--Public token for Mapbox SDK-->
+    <string name="mapbox_public_token" translatable="false">
+        pk.eyJ1IjoiYmVyY2FqeiIsImEiOiJjbDRzOGxuY2cwOXQ5M2VsYWlsOTY1dWo1In0.P2_90ZJFTELsLCVS4DDQmA
+    </string>
+
+    <string name="title_activity_fullscreen_image" translatable="false">FullscreenImageActivity</string>
+    <string name="dummy_button" translatable="false">Dummy Button</string>
+    <string name="dummy_content" translatable="false">DUMMY\nCONTENT</string>
+</resources>

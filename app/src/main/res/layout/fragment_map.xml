@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/top_level_layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.MapFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map_fragment_info_text"
+        android:text="@string/map_fragment_info_text"
+        android:gravity="center_vertical"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlCompat" />
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/map_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="28dp" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/location_button"
+        app:fabSize="mini"
+        android:src="@drawable/ic_gps"
+        app:layout_constraintBottom_toBottomOf="@id/map_view"
+        app:layout_constraintEnd_toEndOf="@id/map_view"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_marker_button"
+        app:fabSize="mini"
+        app:layout_constraintTop_toBottomOf="@id/change_map_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/add_marker_btn"
+        android:layout_marginEnd="8dp"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_harvest_button"
+        app:fabSize="mini"
+        app:layout_constraintTop_toBottomOf="@id/add_marker_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/add_harvest_selection_btn"
+        android:foregroundTint="@color/design_default_color_on_secondary"
+        android:layout_marginEnd="8dp"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/change_map_button"
+        app:fabSize="mini"
+        android:src="@drawable/ic_map_layers"
+        app:layout_constraintTop_toTopOf="@id/map_view"
+        app:layout_constraintEnd_toEndOf="@id/map_view"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="8dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/aim_cross_image"
+        app:layout_constraintTop_toTopOf="@id/map_view"
+        app:layout_constraintBottom_toBottomOf="@id/map_view"
+        app:layout_constraintEnd_toEndOf="@id/map_view"
+        app:layout_constraintStart_toStartOf="@id/map_view"
+        android:visibility="invisible"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:src="@drawable/ic_aim"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/drop_pin_button"
+        app:layout_constraintBottom_toTopOf="@id/adding_marker_window"
+        android:src="@drawable/ic_pin_drop"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="invisible"
+        android:layout_margin="8dp"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/adding_marker_window"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/bottom_dialog_shape"
+        android:padding="16dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/top_level_layout"
+        app:layout_constraintEnd_toEndOf="@id/top_level_layout"
+        app:layout_constraintStart_toStartOf="@id/top_level_layout">
+
+        <ImageView
+            android:id="@+id/pin_drop_iv"
+            android:layout_width="0dp"
+            app:layout_constraintDimensionRatio="1:1"
+            android:layout_height="0dp"
+            android:src="@drawable/ic_pin_drop"
+            app:layout_constraintBottom_toBottomOf="@id/log_lat_info_tv"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/drop_pin_info_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/map_pin_drop_text"
+            app:layout_constraintStart_toEndOf="@id/pin_drop_iv"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/log_lat_info_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/default_location_text"
+            android:textSize="11sp"
+            android:textColor="@color/secondary_text_color"
+            app:layout_constraintStart_toStartOf="@id/drop_pin_info_tv"
+            app:layout_constraintTop_toBottomOf="@id/drop_pin_info_tv" />
+
+        <ImageView
+            android:id="@+id/adding_marker_cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_close"
+            android:clickable="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/devider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="8dp"
+            android:background="@color/color_primary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/log_lat_info_tv" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/add_marker_done_button"
+            android:text="@string/map_marker_done_button_text"
+            app:layout_constraintTop_toBottomOf="@id/devider"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_margin="8dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/add_harvest_done_button"
+            android:visibility="gone"
+            android:text="@string/map_marker_done_button_text"
+            app:layout_constraintTop_toBottomOf="@id/devider"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_margin="8dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/select_only_location_button"
+            android:visibility="gone"
+            android:text="@string/select_location_text"
+            app:layout_constraintTop_toBottomOf="@id/devider"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_margin="8dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hunting_marker_window"
+        android:layout_margin="8dp"
+        android:layout_marginEnd="50dp"
+        android:visibility="invisible"
+        android:background="@drawable/bottom_dialog_shape"
+        android:padding="16dp"
+        app:layout_constraintTop_toTopOf="@id/top_level_layout">
+
+        <ImageView
+            android:id="@+id/hunting_marker_window_cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_close"
+            android:clickable="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_constraintDimensionRatio="1:1"
+            android:src="@drawable/ic_add"
+            android:id="@+id/hunting_marker_window_marker_type_iv"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hunting_marker_window_animal_tv"
+            android:textSize="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintStart_toEndOf="@id/hunting_marker_window_marker_type_iv"
+            app:layout_constraintTop_toTopOf="@id/hunting_marker_window_marker_type_iv"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hunting_marker_window_method_tv"
+            android:textSize="12dp"
+            android:textColor="@color/secondary_text_color"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toEndOf="@id/hunting_marker_window_marker_type_iv"
+            app:layout_constraintBottom_toBottomOf="@id/hunting_marker_window_marker_type_iv"/>
+
+        <Button
+            android:id="@+id/hunting_marker_window_more_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/more_detail_button_text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/hunting_marker_window_cancel_button"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

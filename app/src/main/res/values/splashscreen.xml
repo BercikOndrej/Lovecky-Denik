@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AppCompat.StartingSplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_screen_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_white_wolf_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.LoveckyDenik</item>
+    </style>
+</resources>

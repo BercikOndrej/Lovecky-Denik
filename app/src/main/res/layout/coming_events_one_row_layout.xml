@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/background_color"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/horizontal_devider"
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/rounded_background"
+        android:backgroundTint="@color/background_color"
+        app:layout_constraintStart_toStartOf="@id/devider_guideline"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/coming_event_date_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="25.čer"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/coming_event_day_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="16dp"
+        android:text="day"
+        android:textColor="@color/secondary_text_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/coming_event_date_tv"
+        app:layout_constraintTop_toBottomOf="@id/coming_event_date_tv" />
+
+    <TextView
+        android:id="@+id/coming_event_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="name"
+        android:textColor="@color/white"
+        app:layout_constraintBaseline_toBaselineOf="@+id/coming_event_date_tv"
+        app:layout_constraintStart_toEndOf="@id/horizontal_devider" />
+
+    <TextView
+        android:id="@+id/coming_event_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="time"
+        android:textColor="@color/secondary_text_color"
+        app:layout_constraintBaseline_toBaselineOf="@+id/coming_event_day_name_tv"
+        app:layout_constraintStart_toStartOf="@id/coming_event_name" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/devider_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.25" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hunting diary</string>
+    <string name="home_fragment_label">Overview</string>
+    <string name="map_fragment_label">Map</string>
+    <string name="list_fragment_label">Chronicle</string>
+    <string name="calendar_fragment_label">Calendar</string>
+    <string name="floating_add_button_description">Add item</string>
+    <string name="floating_add_event_button_description">Add event</string>
+    <string name="all_items_text">All game</string>
+    <string name="insert_menu_icon_text">Add</string>
+    <string name="drop_photo_text">Cancel</string>
+    <string name="title_add_activity">Item</string>
+    <string name="note_hint">Note</string>
+    <string name="night_vision_label">Night vision</string>
+    <string name="dog_use_label">Hunting dog assistance</string>
+    <string name="accompaniment_at_the_hunt_label">Accompaniment at the hunt</string>
+    <string name="animal_card_title">Game</string>
+    <string name="method_card_title">Hunting method</string>
+    <string name="hunter_hint">Hunter</string>
+    <string name="animal_age_hint">Age</string>
+    <string name="animal_score_hint">Score</string>
+    <string name="animal_weight_hint">Weight</string>
+    <string name="animal_gender_hint">Gender</string>
+    <string name="sulfix_for_weigth">Kg</string>
+    <string name="cancel_text">Cancel</string>
+    <string name="save_text">Save</string>
+    <string name="edit_text">Edit</string>
+    <string name="delete_text">Delete</string>
+    <string name="error_dialog_title">Error</string>
+    <string name="item_saved">Item has been added successful</string>
+    <string name="item_not_saved">Failed to add item</string>
+    <string name="item_edited">Editing was successful</string>
+    <string name="required_hunting_method_missing">Hunting method was not selected</string>
+    <string name="required_animal_missing">Hunting game was not selected.</string>
+    <string name="wrong_input_error_msg">Wrong input</string>
+    <string name="ok_text">OK</string>
+    <string name="select_image_from_galery_text">Select photo</string>
+    <string name="take_photo_text">Take photo</string>
+    <string name="general_info_card_title">General information</string>
+    <string name="dash">-</string>
+    <string name="age_label_colon">Age:</string>
+    <string name="weight_label_colon">Weight:</string>
+    <string name="score_evaluation_label_colon">Score:</string>
+    <string name="gender_label_colon">Gender:</string>
+    <string name="hunting_method_label_colon">Hunting method:</string>
+    <string name="delete_item_message_dialog">Are you sure you want to delete the item?</string>
+    <string name="delete_was_successfully_text">Delete an item was successful</string>
+    <string name="yes_message_button_dialog">Yes</string>
+    <string name="no_message_button_dialog">No</string>
+    <string name="filter_text">Filter</string>
+    <string name="items_count_5_and_more_text">items</string>
+    <string name="one_item_count_text">item</string>
+    <string name="item_count_between_2_and_4_text">items</string>
+    <string name="event_name_hint">Title</string>
+    <string name="event_time_all_day_info">All-day event</string>
+    <string name="default_event_name">My event</string>
+    <string name="successful_add_event">Event has been added successful.</string>
+    <string name="successful_edit_event">Editing an event was successful.</string>
+    <string name="successful_delete_event">Delete an event was successful.</string>
+    <string name="all_day_text">Daylong</string>
+    <string name="google_button_title">Button for synchronization with Google calendar.</string>
+    <string name="google_calendar_synchronization_title_text">Synchronization with Google calendar.</string>
+    <string name="google_calendar_synchronization_message_text">To synchronization with google calendar, please grant access permission. Your mobile device         must be signed in to your Google account in the system, otherwise synchronization is not         possible. To turn off synchronization, remove the permissions granted to this app in your         device\'s system settings.</string>
+    <string name="permissions_granted_text">Permission granted</string>
+    <string name="permission_allow_text">Allow</string>
+    <string name="calendar_permissions_needed_text">" To synchronization with Google Calendar, please grant the required permissions."</string>
+    <string name="permissions_required_title_text">Need to allow permissions</string>
+    <string name="permissions_required_message_text">Synchronization with Google Calendar is not possible without granting the appropriate         permissions. Please grant permission in system settings of the application.</string>
+    <string name="map_permissions_needed_text">Synchronization with Google Calendar is not possible without granting the appropriate         permissions. Please grant permission in system settings of the application.</string>
+    <string name="map_fragment_info_text">Map fragment</string>
+    <string name="map_pin_drop_text">Press the button to add a point</string>
+    <string name="default_location_text">Unknown position</string>
+    <string name="map_marker_done_button_text">Done</string>
+    <string name="add_marker_title">Add marker</string>
+    <string name="select_marker_type_text">Select marker type</string>
+    <string name="choose_marker_btn">Select</string>
+    <string name="more_detail_button_text">More</string>
+    <string name="hunter_name">Name</string>
+    <string name="hunter_email">Email</string>
+    <string name="user_info_title">User information</string>
+    <string name="user_email_hint">Email</string>
+    <string name="today_day_text">Today</string>
+    <string name="tomorrow_day_text">Tomorrow</string>
+    <string name="no_coming_events_text">No upcoming events</string>
+    <string name="select_location_text">Select location</string>
+    <string name="location_hint_text">Location</string>
+    <string name="error_location_text">Incorrect location input.</string>
+    <string name="location_label_colon">Location:</string>
+    <string name="read_and_write_permissions_needed_text">
+        Please grant permissions for writing in and reading external storage.
+    </string>
+    <string name="export_db_menu_item_text">Export database</string>
+    <string name="export_db_info_text">
+        Do you want to export the database to csv files? All data is exported to a folder
+        an application that in most cases is unavailable for the explorer of your mobile file
+        device, therefore, it is visible only after connecting the device to the computer.
+        Look for data in the "Android/data/AppPackagename/files/ExportedDatabase" folder.
+    </string>
+    <string name="no_text">No</string>
+    <string name="export_possitive_text">Export has been successful</string>
+    <string name="export_negative_text">Export has failed</string>
+    <string name="import_db_menu_item_text">Import database</string>
+    <string name="import_db_info_text">
+        Do you want to import data? both data and folders must be correctly named and inserted to
+        the correctStorage space The "ExportedDatabase" folder containing the "CsvFiles" and
+        "ExportedPictures" folders must be placed together with the data in the folder
+        "Android/data/AppPackagename/files", otherwise data import does not occur. Current data
+        will be lost.
+    </string>
+
+    <string name="import_possitive_text">Import has been successful. Data will change after application reset.</string>
+    <string name="import_negative_text">Import has failed</string>
+
+    <string-array name="animals_strings">
+        <item>Dear</item>
+        <item>Fallow dear</item>
+        <item>Buck</item>
+        <item>Wild Boar</item>
+        <item>Moufflon</item>
+        <item>Hare</item>
+        <item>Pheasant</item>
+        <item>Fox</item>
+        <item>Badger</item>
+        <item>Racoon</item>
+        <item>Racoon dog</item>
+        <item>Marten</item>
+        <item>Otter</item>
+        <item>Musk-rat</item>
+        <item>Nutria</item>
+        <item>Mink</item>
+        <item>Waterfowls</item>
+        <item>Birds</item>
+        <item>Wolf</item>
+        <item>Bear</item>
+        <item>Other harmful animals</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="hunting_methods_strings">
+        <item>Waiting</item>
+        <item>Walking</item>
+        <item>Group hunting</item>
+        <item>Burrowing</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string-array name="days_of_week_shortcuts">
+        <item>Mo</item>
+        <item>Tu</item>
+        <item>We</item>
+        <item>Th</item>
+        <item>Fr</item>
+        <item>Sa</item>
+        <item><font color="red">Su</font> </item>
+    </string-array>
+
+    <string-array name="marker_types">
+        <item>Tree stand</item>
+        <item>Feeding place</item>
+        <item>Feeder</item>
+        <item>Camera trap</item>
+        <item>Trap</item>
+        <item>Animal tracks</item>
+        <item>Burrow</item>
+        <item>Observation</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="months_of_year">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="months_shortcuts">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+</resources>

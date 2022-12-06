@@ -1,0 +1,123 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="24dp">
+
+
+    <TextView
+        android:id="@+id/marker_dialog_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_marker_title"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/first_devider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/selecting_marker_type_tv"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.divider.MaterialDivider
+        android:id="@+id/first_devider"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="8dp"
+        app:dividerColor="@color/color_primary"
+        app:layout_constraintBottom_toTopOf="@id/selecting_marker_type_tv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/marker_dialog_title_tv" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/marker_dialog_delete_iv"
+        android:src="@drawable/ic_delete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="invisible"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/selecting_marker_type_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:drawableStart="@drawable/ic_custom_marker"
+        android:drawablePadding="8dp"
+        android:padding="8dp"
+        android:text="@string/select_marker_type_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/first_devider" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/marker_name_til"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/event_name_hint"
+        app:boxBackgroundMode="outline"
+        app:hintEnabled="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/selecting_marker_type_tv">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/marker_name_ev"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/marker_note_til"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/note_hint"
+        app:boxBackgroundMode="outline"
+        app:hintEnabled="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/marker_name_til">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/marker_note_ev"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/marker_dialog_cancel_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:cornerRadius="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/cancel_text"
+        android:backgroundTint="@color/gray"
+        app:layout_constraintBaseline_toBaselineOf="@+id/marker_create_btn"
+        app:layout_constraintEnd_toStartOf="@+id/marker_create_btn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/marker_create_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:cornerRadius="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/save_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/marker_dialog_cancel_btn"
+        app:layout_constraintTop_toBottomOf="@+id/marker_note_til" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
