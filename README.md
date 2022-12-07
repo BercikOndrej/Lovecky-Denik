@@ -1,6 +1,6 @@
 # Hunting Diary
 
-<img src="readme/ic_launcher_white_wolf-playstore.png" align="left" width="220" hspace="10" vspace="10">
+<img src="readme/ic_launcher_white_wolf-playstore.png" align="left" width="200" height="200" hspace="10" vspace="10">
 
 Hunting diary is mobile application for helping hunters with their job. This repo is copy of project folder for IDE Android Studio. Unfortunately, app is not available yet on Google Play, But you can download "Hunting Diary.apk" file to your mobile phone and you can start using the app. The app is available in Czech and English.
 
@@ -24,7 +24,7 @@ This application is a result of my bachelor thesis. App's main function is to st
 
 <img src="/readme/homeScreenExample.jpg" align="left" width="200" hspace="10" vspace="10">
 <img src="/readme/huntingChronicle.jpg" align="left" width="200" hspace="10" vspace="10">
-<img src="/readme/animalEnums.jpg" align="left" hspace="10" vspace="10">
+<img src="/readme/animalEnums.jpg" align="left" width="200" hspace="10" vspace="10">
 <img src="/readme/detailItemPart1.jpg" align="left" width="200" hspace="10" vspace="10">
 <img src="/readme/detailAnimalMarker.jpg" align="left" width="200" hspace="10" vspace="10">
 <img src="/readme/calendarExample.jpg" align="left" width="200" hspace="10" vspace="10">
