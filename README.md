@@ -1,7 +1,4 @@
 # Hunting Diary
-
-<img src="readme/ic_launcher_white_wolf-playstore.png" width="250" align="left" height="250" hspace="10" vspace="30">
-
 Hunting diary is mobile application for helping hunters with their job. This repo is copy of project folder for IDE Android Studio. Unfortunately, app is not available yet on Google Play, But you can download "Hunting Diary.apk" file to your mobile phone and you can start using the app. The app is available in Czech and English.
 
 ## About
@@ -9,7 +6,6 @@ This application is a result of my bachelor thesis. App's main function is to st
 
 
 ## Features
- 
  - Export data into to CSV file including photos
  - Import data and photos from CSV file into the database
  - Switch between light and dark themes based on phone setting
@@ -20,7 +16,6 @@ This application is a result of my bachelor thesis. App's main function is to st
  - Completely ad-free
 
 ## Permissions
-
 - Read/write to external storage of device
 - Full internet access
 - Full network access
