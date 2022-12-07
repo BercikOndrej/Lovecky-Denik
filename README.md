@@ -29,12 +29,12 @@ This application is a result of my bachelor thesis. App's main function is to st
 - Location access
 
 ## Screenshots
-<div style="display: flex; flex-direction:row; row-gap:30px;">
-<img src="/readme/homeScreenExample.jpg"  width="200">
-<img src="/readme/huntingChronicle.jpg" width="200">
-<img src="/readme/animalEnums.jpg"  width="200">
-<img src="/readme/detailItemPart1.jpg" width="200">
-<img src="/readme/detailAnimalMarker.jpg" width="200">
-<img src="/readme/calendarExample.jpg"  width="200">
+<div style="display: flex; flex-direction:row; gap:30;">
+<img src="/readme/homeScreenExample.jpg"  width="250">
+<img src="/readme/huntingChronicle.jpg" width="250">
+<img src="/readme/animalEnums.jpg"  width="250">
+<img src="/readme/detailItemPart1.jpg" width="250">
+<img src="/readme/detailAnimalMarker.jpg" width="250">
+<img src="/readme/calendarExample.jpg"  width="250">
 </div>
 
