@@ -31,9 +31,9 @@ This application is a result of my bachelor thesis. App's main function is to st
 
 ## Screenshots
 
-<img src="/readme/homeScreenExample.jpg" align="left" width="200" hspace="10" vspace="10">
-<img src="/readme/huntingChronicle.jpg" align="left" width="200" hspace="10" vspace="10">
-<img src="/readme/animalEnums.jpg" align="left" width="200" hspace="10" vspace="10">
-<img src="/readme/detailItemPart1.jpg" align="left" width="200" hspace="10" vspace="10">
-<img src="/readme/detailAnimalMarker.jpg" align="left" width="200" hspace="10" vspace="10">
-<img src="/readme/calendarExample.jpg" align="left" width="200" hspace="10" vspace="10">
+<img src="/readme/homeScreenExample.jpg" align="left" width="200" hspace="20" vspace="20">
+<img src="/readme/huntingChronicle.jpg" align="left" width="200" hspace="20" vspace="20">
+<img src="/readme/animalEnums.jpg" align="left" width="200" hspace="20" vspace="20">
+<img src="/readme/detailItemPart1.jpg" align="left" width="200" hspace="20" vspace="20">
+<img src="/readme/detailAnimalMarker.jpg" align="left" width="200" hspace="20" vspace="20">
+<img src="/readme/calendarExample.jpg" align="left" width="200" hspace="20" vspace="20">
