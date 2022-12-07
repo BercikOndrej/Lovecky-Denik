@@ -20,15 +20,6 @@ This application is a result of my bachelor thesis. App's main function is to st
  - Get notification about hunting events from calendar
  - Completely ad-free
 
-## Screenshots
-
-<img src="/readme/homeScreenExample.jpg" align="left" width="250" hspace="10" vspace="10">
-<img src="/readme/huntingChronicle.jpg" align="left" width="250" hspace="10" vspace="10">
-<img src="/readme/animalEnums.jpg" align="left" width="250" hspace="10" vspace="10">
-<img src="/readme/detailItemPart1.jpg" align="left" width="250" hspace="10" vspace="10">
-<img src="/readme/detailAnimalMarker.jpg" align="left" width="250" hspace="10" vspace="10">
-<img src="/readme/calendarExample.jpg" align="left" width="250" hspace="10" vspace="10">
-
 ## Permissions
 
 - Read/write to external storage of device
@@ -37,3 +28,12 @@ This application is a result of my bachelor thesis. App's main function is to st
 - Read/write into the calendar
 - Wifi access
 - Location access
+
+## Screenshots
+
+<img src="/readme/homeScreenExample.jpg" align="left" width="250" hspace="10" vspace="10">
+<img src="/readme/huntingChronicle.jpg" align="left" width="250" hspace="10" vspace="10">
+<img src="/readme/animalEnums.jpg" align="left" width="250" hspace="10" vspace="10">
+<img src="/readme/detailItemPart1.jpg" align="left" width="250" hspace="10" vspace="10">
+<img src="/readme/detailAnimalMarker.jpg" align="left" width="250" hspace="10" vspace="10">
+<img src="/readme/calendarExample.jpg" align="left" width="250" hspace="10" vspace="10">
