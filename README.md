@@ -4,6 +4,8 @@
 
 Hunting diary is mobile application for helping hunters with their job. This repo is copy of project folder for IDE Android Studio. Unfortunately, app is not available yet on Google Play, But you can download "Hunting Diary.apk" file to your mobile phone and you can start using the app. The app is available in Czech and English.
 
+
+
 ## About
 This application is a result of my bachelor thesis. App's main function is to store records of hunted game and show these records on the map because of location. App allows user to create and keep some important hunting events in app's hunting calendar. Calendar can be synchronized with user's google account.
 
