@@ -29,7 +29,7 @@ This application is a result of my bachelor thesis. App's main function is to st
 - Location access
 
 ## Screenshots
-<div style="display: flex; flex-direction:row; gap:3em;">
+<div style="display: flex; flex-direction:row; gap:30px;">
 <img src="/readme/homeScreenExample.jpg"  width="200">
 <img src="/readme/huntingChronicle.jpg" width="200">
 <img src="/readme/animalEnums.jpg"  width="200">
