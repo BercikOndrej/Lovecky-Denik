@@ -67,7 +67,8 @@
     <string name="calendar_permissions_needed_text">" To synchronization with Google Calendar, please grant the required permissions."</string>
     <string name="permissions_required_title_text">Need to allow permissions</string>
     <string name="permissions_required_message_text">Synchronization with Google Calendar is not possible without granting the appropriate         permissions. Please grant permission in system settings of the application.</string>
-    <string name="map_permissions_needed_text">Synchronization with Google Calendar is not possible without granting the appropriate         permissions. Please grant permission in system settings of the application.</string>
+    <string name="map_permissions_needed_text">In order to display the map correctly, it is necessary to grant the appropriate permissions. Please do
+        associated permissions.</string>
     <string name="map_fragment_info_text">Map fragment</string>
     <string name="map_pin_drop_text">Press the button to add a point</string>
     <string name="default_location_text">Unknown position</string>
